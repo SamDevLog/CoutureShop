@@ -13,35 +13,40 @@ namespace API.Data
                     Description="lovely summer robe for pretty ladies",
                     Price=30,
                     PictureUrl="kqsjdhqklsjdhqslk",
-                    ProductType="Robe",
+                    Type ="Robe",
+                    Brand = "H&M",
                     QuantityInStock=100
                 },new Product{
                     Name="Red Robe",
                     Description="lovely summer robe for pretty ladies",
                     Price=30,
                     PictureUrl="kqsjdhqklsjdhqslk",
-                    ProductType="Robe",
+                    Type ="Robe",
+                    Brand = "Mongo",
                     QuantityInStock=100
                 },new Product{
                     Name="Blue Robe",
                     Description="lovely summer robe for pretty ladies",
                     Price=30,
                     PictureUrl="kqsjdhqklsjdhqslk",
-                    ProductType="Dress",
+                    Type ="Dress",
+                    Brand = "Zara",
                     QuantityInStock=100
                 },new Product{
                     Name="Green Robe",
                     Description="lovely summer robe for pretty ladies",
                     Price=30,
                     PictureUrl="kqsjdhqklsjdhqslk",
-                    ProductType="Robe",
+                    Type ="Robe",
+                    Brand = "Gucci",
                     QuantityInStock=100
                 },new Product{
                     Name="Pink Robe",
                     Description="lovely summer robe for pretty ladies",
                     Price=30,
                     PictureUrl="kqsjdhqklsjdhqslk",
-                    ProductType="Dress",
+                    Type ="Dress",
+                    Brand = "Zara",
                     QuantityInStock=100
                 },
             };
