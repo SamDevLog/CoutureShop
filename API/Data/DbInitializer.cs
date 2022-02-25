@@ -12,43 +12,47 @@ namespace API.Data
                     Name="Black Robe",
                     Description="lovely summer robe for pretty ladies",
                     Price=30,
-                    PictureUrl="kqsjdhqklsjdhqslk",
+                    PictureUrl="/images/products/boot-ang1.png",
                     Type ="Robe",
                     Brand = "H&M",
                     QuantityInStock=100
-                },new Product{
+                },
+                new Product{
                     Name="Red Robe",
                     Description="lovely summer robe for pretty ladies",
                     Price=30,
-                    PictureUrl="kqsjdhqklsjdhqslk",
+                    PictureUrl="/images/products/boot-core2.png",
                     Type ="Robe",
                     Brand = "Mongo",
                     QuantityInStock=100
-                },new Product{
+                },
+                new Product{
                     Name="Blue Robe",
                     Description="lovely summer robe for pretty ladies",
                     Price=30,
-                    PictureUrl="kqsjdhqklsjdhqslk",
-                    Type ="Dress",
-                    Brand = "Zara",
-                    QuantityInStock=100
-                },new Product{
-                    Name="Green Robe",
-                    Description="lovely summer robe for pretty ladies",
-                    Price=30,
-                    PictureUrl="kqsjdhqklsjdhqslk",
-                    Type ="Robe",
-                    Brand = "Gucci",
-                    QuantityInStock=100
-                },new Product{
-                    Name="Pink Robe",
-                    Description="lovely summer robe for pretty ladies",
-                    Price=30,
-                    PictureUrl="kqsjdhqklsjdhqslk",
+                    PictureUrl="/images/products/boot-redis1.png",
                     Type ="Dress",
                     Brand = "Zara",
                     QuantityInStock=100
                 },
+                new Product{
+                    Name="Green Robe",
+                    Description="lovely summer robe for pretty ladies",
+                    Price=30,
+                    PictureUrl="/images/products/glove-code2.png",
+                    Type ="Robe",
+                    Brand = "Gucci",
+                    QuantityInStock=100
+                },
+                new Product{
+                    Name="Pink Robe",
+                    Description="lovely summer robe for pretty ladies",
+                    Price=30,
+                    PictureUrl="/images/products/hat-core1.png",
+                    Type ="Dress",
+                    Brand = "Zara",
+                    QuantityInStock=100
+                }
             };
 
             foreach (var product in products)
