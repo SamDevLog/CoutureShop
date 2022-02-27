@@ -2,7 +2,7 @@ using API.Data;
 using API.Dtos;
 using API.Entities;
 using Microsoft.AspNetCore.Mvc;
-
+using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 {
@@ -16,15 +16,19 @@ namespace API.Controllers
         }
 
         [HttpGet]
-        public ActionResult<List<Product>> GetProducts(){
-            var products = _store.Products.ToList();
+        public async Task<ActionResult<List<Product>>> GetProducts(){
+            var products = await _store.Products.ToListAsync();
 
             return Ok(products);
         }
 
         [HttpGet("{id}")]
-        public ActionResult<Product> GetProduct(int id){
-            return _store.Products.Find(id);
+        public async Task<ActionResult<Product>> GetProduct(int id){
+            var product = await _store.Products.FindAsync(id);
+            
+            if(product is null) return NotFound();
+
+            return product;
         }
     }
 }
