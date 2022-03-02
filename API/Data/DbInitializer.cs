@@ -20,7 +20,7 @@ namespace API.Data
                 new Product{
                     Name="Red Robe",
                     Description="lovely summer robe for pretty ladies",
-                    Price=30,
+                    Price=3500,
                     PictureUrl="/images/products/boot-core2.png",
                     Type ="Robe",
                     Brand = "Mongo",
@@ -29,7 +29,7 @@ namespace API.Data
                 new Product{
                     Name="Blue Robe",
                     Description="lovely summer robe for pretty ladies",
-                    Price=30,
+                    Price=1000,
                     PictureUrl="/images/products/boot-redis1.png",
                     Type ="Dress",
                     Brand = "Zara",
@@ -38,7 +38,7 @@ namespace API.Data
                 new Product{
                     Name="Green Robe",
                     Description="lovely summer robe for pretty ladies",
-                    Price=30,
+                    Price=4900,
                     PictureUrl="/images/products/glove-code2.png",
                     Type ="Robe",
                     Brand = "Gucci",
@@ -47,10 +47,19 @@ namespace API.Data
                 new Product{
                     Name="Pink Robe",
                     Description="lovely summer robe for pretty ladies",
-                    Price=30,
+                    Price=7000,
                     PictureUrl="/images/products/hat-core1.png",
                     Type ="Dress",
                     Brand = "Zara",
+                    QuantityInStock=100
+                },
+                new Product{
+                    Name="Khaki Caftan",
+                    Description="lovely summer robe for pretty ladies",
+                    Price=9300,
+                    PictureUrl="/images/products/hat-core1.png",
+                    Type ="Caftan",
+                    Brand = "Diamand",
                     QuantityInStock=100
                 }
             };
