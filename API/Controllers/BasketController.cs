@@ -25,17 +25,12 @@ namespace API.Controllers
             return basket.MapBasketToDto();
         }
 
-        
-
         [HttpPost]
         public async Task<ActionResult<BasketDto>> AddItemToBasket(int productId, int quantity)
         {
             //get basket || create basket
             var basket = await RetrieveBasket(GetBuyerId());
-            if(basket is null)
-            {
-                basket = CreateBasket();
-            }
+            if(basket is null) basket = CreateBasket();
 
             //get product
             var product = await _context.Products.FindAsync(productId);
@@ -49,9 +44,6 @@ namespace API.Controllers
             
             return BadRequest(new ProblemDetails{Title = "Problem saving item to basket"});
         }
-
-        
-
         [HttpDelete]
         public async Task<ActionResult> RemoveBasketItem(int productId, int quantity)
         {
@@ -74,7 +66,7 @@ namespace API.Controllers
         {
             if(string.IsNullOrEmpty(buyerId))
             {
-                Response.Cookies.Delete(GetBuyerId());
+                Response.Cookies.Delete("buyerId");
                 return null;
             }
 
@@ -101,8 +93,6 @@ namespace API.Controllers
                 };
                 Response.Cookies.Append("buyerId", buyerId, cookieOptions);
             }
-            
-
 
             var basket = new Basket{ BuyerId = buyerId};
 
