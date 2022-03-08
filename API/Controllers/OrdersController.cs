@@ -100,7 +100,6 @@ namespace API.Controllers
                     Country = orderDto.ShippingAddress.Country,
                 };
                 user.Address = address;
-                
             }
 
             var result = await _context.SaveChangesAsync() > 0;
