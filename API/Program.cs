@@ -4,8 +4,6 @@ using API.Entities;
 using API.Middleware;
 using API.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -30,7 +28,6 @@ builder.Services.AddDbContext<StoreContext>(options =>
     {
         // Use connection string provided at runtime by Heroku.
         var connUrl = Environment.GetEnvironmentVariable("DATABASE_URL");
-
         // Parse connection URL to connection string for Npgsql
         connUrl = connUrl.Replace("postgres://", string.Empty);
         var pgUserPass = connUrl.Split("@")[0];
