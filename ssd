@@ -1,0 +1,107 @@
+[33mcommit 55b8a0f579e673d3b564302c933801700a9ef781[m[33m ([m[1;36mHEAD -> [m[1;32mInventory[m[33m, [m[1;31morigin/main[m[33m, [m[1;31mheroku/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: Samir <Admin@SAMIR>
+Date:   Tue Mar 8 16:54:14 2022 +0100
+
+    fix JWT token settings key
+
+[33mcommit 8dc42b8e24b2c1fb112d3c28f66ecb3a1d91822a[m
+Author: Samir <Admin@SAMIR>
+Date:   Tue Mar 8 15:49:07 2022 +0100
+
+    publish to heroku
+
+[33mcommit 070c9ade3933d5803d0eb9f3c4c5a17baa2df10e[m
+Author: Samir <Admin@SAMIR>
+Date:   Tue Mar 8 00:13:29 2022 +0100
+
+    payment controller and functionlities added for stripe
+
+[33mcommit e3727eef4c2dee32300a35146daf6b3b7c2b1a58[m
+Author: Samir <Admin@SAMIR>
+Date:   Mon Mar 7 14:03:05 2022 +0100
+
+    added save address endpoint and fixed saving address bug
+
+[33mcommit 9a395170a26797642f102cb4f6f31a5db20da0c7[m
+Author: Samir <Admin@SAMIR>
+Date:   Sat Mar 5 23:33:38 2022 +0100
+
+    added DTOs and entities for order aggregate as well as their respective extensions
+
+[33mcommit d96a4d14cdf96bad918dd76740f9edbfebf477b8[m
+Author: Samir <Admin@SAMIR>
+Date:   Sat Mar 5 15:44:49 2022 +0100
+
+    fixed null reference for basket when mapping
+
+[33mcommit b62ac5ae17fe81aa63ae5bc3d93ffcf5e40133b4[m
+Author: Samir <Admin@SAMIR>
+Date:   Fri Mar 4 23:39:58 2022 +0100
+
+    register and login functionality. modifications to controllers for better use of basket
+
+[33mcommit a2003d4c29d0a5113c230917f2e6371d05c97b6e[m
+Author: Samir <Admin@SAMIR>
+Date:   Thu Mar 3 23:49:59 2022 +0100
+
+    added identity system and user roles
+
+[33mcommit ca85380dbf5e128bf53bf49aadf404fcfd5e0819[m
+Author: Samir <Admin@SAMIR>
+Date:   Wed Mar 2 23:50:30 2022 +0100
+
+    addition of helper and extension classes for filtering and search endpoints
+
+[33mcommit a6dbcc1659c0108e6ce9452b10f5f9923b74aa21[m
+Author: Samir <Admin@SAMIR>
+Date:   Tue Mar 1 23:59:31 2022 +0100
+
+    mod basket api
+
+[33mcommit 25819509927e3dfb3293221f3b674a17cf74764f[m
+Author: Samir <Admin@SAMIR>
+Date:   Mon Feb 28 23:51:33 2022 +0100
+
+    added basket controller and dtos
+
+[33mcommit 932c65e2a41068e97da4c4a313c6ed1a73ca0c3b[m
+Author: Samir <Admin@SAMIR>
+Date:   Mon Feb 28 00:09:15 2022 +0100
+
+    Added Basket Controller and basic functionality
+
+[33mcommit 8029272930c1f032b542c5f570c5f782cb78df41[m
+Author: Samir <Admin@SAMIR>
+Date:   Sun Feb 27 17:43:18 2022 +0100
+
+    errors controller for testing functionality
+
+[33mcommit 6fa9c140a60ef5bab31c0844de3e8c9b02c42863[m
+Author: Samir <Admin@SAMIR>
+Date:   Sat Feb 26 23:40:55 2022 +0100
+
+    csproj update to remove other class libraries dependency
+
+[33mcommit b0b8b1ac33ddaf6662c7b9703d5ecf3547739aa8[m
+Author: Samir <Admin@SAMIR>
+Date:   Sat Feb 26 19:34:25 2022 +0100
+
+    theme selector and react app folders organization
+
+[33mcommit 2b908d44dcf1bc98a4d6e462aaccaa47f5792ea1[m
+Author: Samir <Admin@SAMIR>
+Date:   Fri Feb 25 23:45:41 2022 +0100
+
+    fix images url
+
+[33mcommit 40090fada49b42243766a01aacf6251725d0adee[m
+Author: Samir <Admin@SAMIR>
+Date:   Fri Feb 25 23:30:53 2022 +0100
+
+    restructure REACT proj and add material ui
+
+[33mcommit 658ef309dc09fe048c9d902ceabd75bc8a0090d1[m
+Author: Samir <Admin@SAMIR>
+Date:   Fri Feb 25 12:59:01 2022 +0100
+
+    initial commit
